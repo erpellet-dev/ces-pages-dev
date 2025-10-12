@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse 33 CES exhibitors in the Fashion Tech category. Find companies and products related to Fashion Tech.">
+    <title>Fashion Tech - CES Exhibitors by Category</title>
+    
+    <!-- Bulma CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <!-- Base path for JavaScript -->
+    <script>window.SITE_BASE_PATH = '/ces-pages-dev';</script>
+    
+    <style>
+    /* Minimal inline styles for functionality that Bulma doesn't provide */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /* Make hero header sticky */
+    .hero.is-primary {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    /* Search results dropdown positioning */
+    .search-container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 0.5rem;
+        max-height: 400px;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    
+    /* Search results list styling */
+    .menu-list a {
+        padding: 1rem;
+        border-radius: 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .menu-list li:last-child a {
+        border-bottom: none;
+    }
+    
+    /* Smooth transitions for cards */
+    .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    }
+    </style>
+    
+    
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="hero is-primary is-bold">
+        <div class="hero-head">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="/ces-pages-dev/index.html" class="navbar-item">
+                            <strong class="is-size-4">CES Exhibitors</strong>
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="/ces-pages-dev/index.html" class="navbar-item ">
+                                Home
+                            </a>
+                            <a href="/ces-pages-dev/exhibitors_table.html" class="navbar-item ">
+                                Table View
+                            </a>
+                            <a href="/ces-pages-dev/categories.html" class="navbar-item ">
+                                Categories
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="hero-body">
+            <div class="container">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="field has-addons">
+                        <div class="control is-expanded has-icons-left">
+                            <input 
+                                type="search" 
+                                id="search-input" 
+                                class="input is-large search-input" 
+                                placeholder="Search exhibitors by name, category, or description..."
+                                autocomplete="off"
+                            >
+                            <span class="icon is-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.35-4.35"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Results Dropdown -->
+                    <div id="search-results" class="box search-results" style="display: none;">
+                        <div class="mb-2">
+                            <span id="results-count" class="tag is-info">0 results</span>
+                        </div>
+                        <ul id="results-list" class="menu-list"></ul>
+                        <div class="mt-2 has-text-centered">
+                            <p class="is-size-7 has-text-grey">Press <kbd class="tag is-light is-small">↑</kbd> <kbd class="tag is-light is-small">↓</kbd> to navigate, <kbd class="tag is-light is-small">Enter</kbd> to select</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="section">
+        <div class="container">
+            
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="/ces-pages-dev/index.html">Home</a></li>
+        <li><a href="/ces-pages-dev/categories.html">Categories</a></li>
+        <li aria-current="page">Fashion Tech</li>
+    </ol>
+</nav>
+
+            
+            
+<div style="max-width: 900px; margin: 0 auto;">
+    <!-- Category Header -->
+    <header class="has-text-centered mb-6">
+        <div class="icon is-large has-text-primary mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+        </div>
+        <h1 class="title is-2">Fashion Tech</h1>
+        <p class="subtitle is-5 has-text-grey">
+            33 exhibitors in this category
+        </p>
+    </header>
+
+    <!-- Exhibitors List -->
+    <div class="mb-6">
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/axiomsten-ltd.html" class="has-text-dark">
+                            Axiomsten Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        We are an artificial intelligence company focused on “human insight and self-understanding.” We are dedicated to creating products that combine cutting-edge AI technology with the science of human emo...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cloud-computing.html" class="tag is-light is-small">
+                                Cloud Computing
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/axiomsten-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001K7yQ2IAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/barunbio-inc.html" class="has-text-dark">
+                            Barunbio Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        BarunBio is a company specializing in anti-aging solutions across apparel, beauty, and medical industries. Our core technology utilizes micro-electric energy generated from daily movements—without the...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/beauty-tech.html" class="tag is-light is-small">
+                                Beauty Tech
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/barunbio-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000003e9faIAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/chu-jiang-co-ltd.html" class="has-text-dark">
+                            Chu Jiang Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Hello, we are 『This is us』Our selection includes protective cases, charging accessories, phones, and more,designed to enhance both functionality and style. We carefully choose each product to ensure t...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/chu-jiang-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000017cccRIAQ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/don-company-ltd.html" class="has-text-dark">
+                            D.O.N Company Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        &#39;For our precious&#39;
+We create a lifestyle fulled with happiness and excitement 
+through products and services equipped with &#39;Fashion＊Technology”
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/don-company-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000010OC7fIAG" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/edifier-enterprises-canada.html" class="has-text-dark">
+                            Edifier Enterprises Canada
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Founded in 1996, Edifier is a global leader in premium audio solutions, dedicated to creating innovative, stylish, and high-quality products. From headphones and speakers to professional audio, Edifie...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/gaming-esports.html" class="tag is-light is-small">
+                                Gaming &amp; Esports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/edifier-enterprises-canada.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaMG3AAN" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/everything-branding.html" class="has-text-dark">
+                            Everything Branding
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Everything Branding is an award-winning public relations and e-commerce marketing agency helping brands grow revenue, boost visibility, and dominate AI-powered discovery.
+
+We specialize in commerce-dr...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/beauty-tech.html" class="tag is-light is-small">
+                                Beauty Tech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/marketing-advertising.html" class="tag is-light is-small">
+                                Marketing &amp; Advertising
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/everything-branding.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000017ELEjIAO" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/fanyu-intelligent.html" class="has-text-dark">
+                            Fanyu Intelligent
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Fanyu Intelligent is a robotics company focused on consumer-facing applications. Our mission is to bring emotionally intelligent, highly interactive robots into the homes and daily lives of people aro...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/fanyu-intelligent.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001K71bHIAR" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/foshan-viomi-electrical-technology-co-ltd.html" class="has-text-dark">
+                            Foshan Viomi Electrical Technology Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        AI for Better Water – Using AI technology to provide better drinking water solutions for home
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/foshan-viomi-electrical-technology-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000ApUG4IAN" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/garmin-international-inc.html" class="has-text-dark">
+                            GARMIN International Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Engineered on the inside for life on the outside, Garmin products have revolutionized the aviation, automotive, fitness, marine and outdoor lifestyles. Dedicated to helping people make the most of the...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/garmin-international-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000000k52qbAAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/jionmeditech.html" class="has-text-dark">
+                            Jionmeditech
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        JIONMEDITECH is constantly passionate for skin elasticity and lifting leading the home beauty device market. With know-how of the advisory group composed of domestic and foreign
+researchers and univer...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/beauty-tech.html" class="tag is-light is-small">
+                                Beauty Tech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/jionmeditech.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000SszPlIAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/kristincompany-co-ltd.html" class="has-text-dark">
+                            KRISTINCOMPANY Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        KRISTINCOMPANY Co., Ltd. is a global shoetech pioneer that leverages AI to revolutionize creativity and manufacturing efficiency in footwear. Our proprietary AI platform connects brands and manufactur...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/enterprise.html" class="tag is-light is-small">
+                                Enterprise
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sourcing-manufacturing.html" class="tag is-light is-small">
+                                Sourcing &amp; Manufacturing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/kristincompany-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000003RrcnIAC" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/lesli-international-pte-ltd.html" class="has-text-dark">
+                            Lesli International Pte. Ltd
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        We specialize in creating and producing cutting-edge clothes dryers. Introducing our latest innovation, the Effidry S3 – the fastest clothes dryer on the market, capable of drying a load in just 9 min...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/lesli-international-pte-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000PmRIsIAN" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/lumus-ltd.html" class="has-text-dark">
+                            Lumus Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Lumus is the leading choice of waveguide optics for OEMs making AR glasses. Lumus reflective (geometric) waveguides have the highest quality image,  up to 10X better luminance efficiency over the comp...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/gaming-esports.html" class="tag is-light is-small">
+                                Gaming &amp; Esports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/lumus-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaMPJAA3" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/martiantec.html" class="has-text-dark">
+                            MartianTec
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        We envision that rapid technological advancements will one day lead us to Mars. This is why we founded Martiantec – a company dedicated to turning futuristic ideas into reality. We are focused on comp...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/gaming-esports.html" class="tag is-light is-small">
+                                Gaming &amp; Esports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/martiantec.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001ax5n1QAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/momax-technology-hong-kong-limited.html" class="has-text-dark">
+                            Momax Technology (Hong Kong) Limited
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Founded in 2003, Momax has invested in a sustainable ethos, championing electronic products with international safety certifications and partnered with Apple for 15 executive years. With accolades suc...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/momax-technology-hong-kong-limited.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KYVBLAA5" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/nanosys.html" class="has-text-dark">
+                            Nanosys
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Nanosys pioneers Quantum Dots: the powerful semiconductors behind brighter, bolder displays and now inspiring entirely new applications. 
+At CES 2026, we’re proud to showcase Quantum Light, a visionar...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/gaming-esports.html" class="tag is-light is-small">
+                                Gaming &amp; Esports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/quantum.html" class="tag is-light is-small">
+                                Quantum
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sourcing-manufacturing.html" class="tag is-light is-small">
+                                Sourcing &amp; Manufacturing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/video-display.html" class="tag is-light is-small">
+                                Video &amp; Display
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/nanosys.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001MfPUrAAN" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/nomatic.html" class="has-text-dark">
+                            Nomatic
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Nomatic makes highly functional, durable, and innovative products for Photography, Travel, and Everyday life.  Our gear is based on the belief that thoughtful design inspires confidence allowing you t...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/travel-tourism.html" class="tag is-light is-small">
+                                Travel &amp; Tourism
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/nomatic.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001YW3zSQAT" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/olight-group-coltd.html" class="has-text-dark">
+                            Olight Group Co.,Ltd
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Olight, a global leader since 2007, offers innovative portable lights and advanced smart battery chargers. Combining high-tech lighting and intelligent charging solutions, we meet evolving customer ne...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/travel-tourism.html" class="tag is-light is-small">
+                                Travel &amp; Tourism
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/olight-group-coltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000JhuonIAB" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/redsound-technologies-co-ltd.html" class="has-text-dark">
+                            Redsound Technologies Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        The birth of RED SOUND began with a group of young and energetic technical teams, and we have been committed to the deep insight and persistent exploration of the nature of sound in the audio field. W...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/content-entertainment.html" class="tag is-light is-small">
+                                Content &amp; Entertainment
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/education-tech.html" class="tag is-light is-small">
+                                Education Tech
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/redsound-technologies-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001G66ozIAB" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/renew-system.html" class="has-text-dark">
+                            Renew System
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Renew System offers cutting-edge chemical recycling technologies that transform waste plastic and textiles into high-quality raw materials. An innovative pre-treatment process for mixed textiles compl...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/renew-system.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00003nkyH8QAI" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/ringconn-llc.html" class="has-text-dark">
+                            RingConn LLC
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        RingConn&#39;s mission is to provide innovative products and services that improve people&#39;s understanding of themselves, while combining technology, healthcare and interdisciplinarity to make these produc...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/ringconn-llc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00003wZAkfQAG" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/runmefit-inc.html" class="has-text-dark">
+                            Runmefit Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Founded in 2015, Runmefit aims to bridge the gap between daily health awareness and accessible, advanced fitness tech. Our range of smartwatches and activity trackers are seamlessly connected to the R...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/runmefit-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000EswIHIAZ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-g-cycle-technology-co-ltd.html" class="has-text-dark">
+                            Shenzhen G-Cycle Technology Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Apollo Scooters Booth + Shenzhen Z.S.F. Technology Co
+ is a leading high-tech enterprise from China specializing in the development and manufacturing of electric scooters and mobility solutions. With ...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/travel-tourism.html" class="tag is-light is-small">
+                                Travel &amp; Tourism
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-g-cycle-technology-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaMZQAA3" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-jisu-trading-coltd.html" class="has-text-dark">
+                            Shenzhen Jisu Trading Co.,Ltd
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Jisulife is an innovative technology brand with many years of experience in fan technology research and lean manufacturing. Our mission is to pioneer world-leading outdoor fan technologies and apply t...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-jisu-trading-coltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00003F2TzmQAF" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-zhaohong-electronics-co-ltd.html" class="has-text-dark">
+                            Shenzhen Zhaohong Electronics Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Our advantage:our company slogan is to bring you latest wireless charger Technology and trend wireless charger
+Help over 100+ customer from small business to top 10 in there country. 
+TOP500 PARTNERS
+...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/travel-tourism.html" class="tag is-light is-small">
+                                Travel &amp; Tourism
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/shenzhen-zhaohong-electronics-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000IcxKrIAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/smart-hip-guardian.html" class="has-text-dark">
+                            Smart Hip Guardian
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Briggs Health Solutions has created a patented, predictive, protective wearable called the Smart Hip Guardian, that can tell the difference between everyday activities and a fall event.  In the event ...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/longevity.html" class="tag is-light is-small">
+                                Longevity
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/smart-hip-guardian.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001O4eIKIAZ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/southern-telecom.html" class="has-text-dark">
+                            Southern Telecom
+                        </a>
+                    </h2>
+                    
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/beauty-tech.html" class="tag is-light is-small">
+                                Beauty Tech
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sports.html" class="tag is-light is-small">
+                                Sports
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/southern-telecom.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KYV0GAAX" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/surplus-giant-inc.html" class="has-text-dark">
+                            Surplus Giant, Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Surplus Giant Inc. is a wholesale-liquidation distributor of branded tech accessories for cellphones, computers, portable devices &amp; home networking categories. We Specialize in closeout products, exce...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/surplus-giant-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001TC0jvQAD" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/thingx-technologies-limited.html" class="has-text-dark">
+                            ThingX Technologies Limited
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        ThingX Technology is a consumer tech company specializing in smart health AI hardware. We develop comprehensive AI solutions for monitoring and managing both physical and mental health, utilizing edge...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/thingx-technologies-limited.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000kbBY2IAM" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/venous-eyewear-co-ltd.html" class="has-text-dark">
+                            Venous Eyewear Co., Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        VENOUS, a Taiwan-based tech company, develops innovative smart eyewear under the brand Magic Palm. Our AI glasses blend fashion and technology, featuring open-ear directional sound, touch controls, mo...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/venous-eyewear-co-ltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000F9KYOIA3" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/wacaco.html" class="has-text-dark">
+                            Wacaco
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Wacaco redefines coffee on the go with award-winning portable makers, from hand-powered espresso icons to sleek electric brewers. Compact, stylish, and easy to use, Wacaco empowers coffee lovers to en...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/retaile-commerce.html" class="tag is-light is-small">
+                                Retail/E-Commerce
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/travel-tourism.html" class="tag is-light is-small">
+                                Travel &amp; Tourism
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/wacaco.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000Mj3S9IAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/xbot-robotic-technology-corp.html" class="has-text-dark">
+                            XBOT Robotic Technology Corp
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        xBOT Coffee Robot 
+• Best in Class, world leading robotic barista level non-manned robotic coffee KIOSK supported by leading-edge intelligent two arm robotic system, seasoned R&amp;D team, endorsed by wel...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/enterprise.html" class="tag is-light is-small">
+                                Enterprise
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/food-tech.html" class="tag is-light is-small">
+                                Food Tech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/investment-venture-capital.html" class="tag is-light is-small">
+                                Investment &amp; Venture Capital
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/xbot-robotic-technology-corp.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000cigdcIAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/ykk-usa-inc.html" class="has-text-dark">
+                            YKK (U.S.A.) Inc
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        YKK, founded in Tokyo in 1934, is the world’s largest zipper manufacturer and a global leader in fastening solutions. With integrated production in countries around the world, YKK delivers high-qualit...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sourcing-manufacturing.html" class="tag is-light is-small">
+                                Sourcing &amp; Manufacturing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/ykk-usa-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001DrdHlIAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+
+    
+
+    <!-- Back Navigation -->
+    <nav class="mt-6">
+        <a href="/ces-pages-dev/categories.html" class="button is-light">
+            <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+            </span>
+            <span>Back to All Categories</span>
+        </a>
+    </nav>
+</div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer has-background-light">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <h3 class="title is-5">About</h3>
+                    <p class="content">CES Exhibitors Directory - A comprehensive searchable database of all exhibitors at the Consumer Electronics Show.</p>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Statistics</h3>
+                    <div class="content">
+                        <p>
+                            <strong>0</strong> exhibitors<br>
+                            <strong>0</strong> categories
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Data</h3>
+                    <div class="content">
+                        <p>
+                            Last updated: <time datetime="2025-01-01T00:00:00Z">
+                                2025-01-01
+                            </time>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="content has-text-centered">
+                <p>&copy; 2025 CES Exhibitors Directory. Data scraped from <a href="https://exhibitors.ces.tech" target="_blank" rel="noopener">exhibitors.ces.tech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/ces-pages-dev/js/search.js"></script>
+    
+</body>
+</html>

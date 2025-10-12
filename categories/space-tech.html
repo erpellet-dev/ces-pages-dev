@@ -1,0 +1,2311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse 34 CES exhibitors in the Space Tech category. Find companies and products related to Space Tech.">
+    <title>Space Tech - CES Exhibitors by Category</title>
+    
+    <!-- Bulma CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <!-- Base path for JavaScript -->
+    <script>window.SITE_BASE_PATH = '/ces-pages-dev';</script>
+    
+    <style>
+    /* Minimal inline styles for functionality that Bulma doesn't provide */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /* Make hero header sticky */
+    .hero.is-primary {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    /* Search results dropdown positioning */
+    .search-container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 0.5rem;
+        max-height: 400px;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    
+    /* Search results list styling */
+    .menu-list a {
+        padding: 1rem;
+        border-radius: 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .menu-list li:last-child a {
+        border-bottom: none;
+    }
+    
+    /* Smooth transitions for cards */
+    .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    }
+    </style>
+    
+    
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="hero is-primary is-bold">
+        <div class="hero-head">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="/ces-pages-dev/index.html" class="navbar-item">
+                            <strong class="is-size-4">CES Exhibitors</strong>
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="/ces-pages-dev/index.html" class="navbar-item ">
+                                Home
+                            </a>
+                            <a href="/ces-pages-dev/exhibitors_table.html" class="navbar-item ">
+                                Table View
+                            </a>
+                            <a href="/ces-pages-dev/categories.html" class="navbar-item ">
+                                Categories
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="hero-body">
+            <div class="container">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="field has-addons">
+                        <div class="control is-expanded has-icons-left">
+                            <input 
+                                type="search" 
+                                id="search-input" 
+                                class="input is-large search-input" 
+                                placeholder="Search exhibitors by name, category, or description..."
+                                autocomplete="off"
+                            >
+                            <span class="icon is-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.35-4.35"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Results Dropdown -->
+                    <div id="search-results" class="box search-results" style="display: none;">
+                        <div class="mb-2">
+                            <span id="results-count" class="tag is-info">0 results</span>
+                        </div>
+                        <ul id="results-list" class="menu-list"></ul>
+                        <div class="mt-2 has-text-centered">
+                            <p class="is-size-7 has-text-grey">Press <kbd class="tag is-light is-small">↑</kbd> <kbd class="tag is-light is-small">↓</kbd> to navigate, <kbd class="tag is-light is-small">Enter</kbd> to select</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="section">
+        <div class="container">
+            
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="/ces-pages-dev/index.html">Home</a></li>
+        <li><a href="/ces-pages-dev/categories.html">Categories</a></li>
+        <li aria-current="page">Space Tech</li>
+    </ol>
+</nav>
+
+            
+            
+<div style="max-width: 900px; margin: 0 auto;">
+    <!-- Category Header -->
+    <header class="has-text-centered mb-6">
+        <div class="icon is-large has-text-primary mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+        </div>
+        <h1 class="title is-2">Space Tech</h1>
+        <p class="subtitle is-5 has-text-grey">
+            34 exhibitors in this category
+        </p>
+    </header>
+
+    <!-- Exhibitors List -->
+    <div class="mb-6">
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/ansys.html" class="has-text-dark">
+                            Ansys
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Synopsys is the leader in engineering solutions from silicon to systems that maximize 
+our customers’ R&amp;D capability and productivity. Companies trust Synopsys to pioneer 
+new technologies that help t...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/ansys.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001NAG2jAAH" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/brainchip-inc.html" class="has-text-dark">
+                            BrainChip, Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        BrainChip is the global leader in event driven computing, with the Akida™ platform performing inferencing at the lowest power on the edge today. Supported by development tools, boards, chips and IP, A...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/brainchip-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000002Kd5hIAC" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/daejeon-metropolitan-city.html" class="has-text-dark">
+                            Daejeon Metropolitan City
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Daejeon, South Korea : The Science Capital of Korea and a Leading Economic Powerhouse
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/daejeon-metropolitan-city.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00003ZdFvfQAF" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/dennisson-technologies.html" class="has-text-dark">
+                            Dennisson Technologies
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Dennisson Technologies is the creator of AuraFlex, the world&#39;s thinnest, lightest, and flexible silent actuator. This advanced material technology is a light-activated polymer that contracts like a mu...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/dennisson-technologies.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000jn537IAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/diamond-quanta.html" class="has-text-dark">
+                            Diamond Quanta
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Diamond Quanta (DQ), a Silicon Catalyst portfolio company, is pioneering the first scalable engineered diamond platform for the post-silicon era. Our “Physics of Forever” mission delivers unmatched th...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/computing.html" class="tag is-light is-small">
+                                Computing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/quantum.html" class="tag is-light is-small">
+                                Quantum
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/video-display.html" class="tag is-light is-small">
+                                Video &amp; Display
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/diamond-quanta.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001RMMhlIAH" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/dic-corporation.html" class="has-text-dark">
+                            DIC Corporation
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        A chemical manufacturer with a history of over 100 years of innovation, DIC is a global leader in printing inks, organic pigments, and high-performance resins. Now creating new value beyond chemistry,...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/drones.html" class="tag is-light is-small">
+                                Drones
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/gaming-esports.html" class="tag is-light is-small">
+                                Gaming &amp; Esports
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/dic-corporation.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000bv062IAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/dspace.html" class="has-text-dark">
+                            dSPACE
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        dSPACE is a leading provider of simulation and validation solutions worldwide for developing connected, autonomous, and electrically powered vehicles. Our portfolio ranges from end-to-end solutions fo...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cloud-computing.html" class="tag is-light is-small">
+                                Cloud Computing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/dspace.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001eXqrVQAS" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/ecm-pcb-stator-tech.html" class="has-text-dark">
+                            ECM PCB Stator Tech
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        ECM is an electric motor design and software company. ECM&#39;s advanced Motor CAD SaaS, PrintStator, enables the rapid design and manufacture of customized, premium efficiency PCB Stator motors and gener...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/ecm-pcb-stator-tech.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00002JIhLgQAL" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/edgecortix.html" class="has-text-dark">
+                            EdgeCortix
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        EdgeCortix builds high performance, energy efficient, AI accelerators with a software-first approach for edge applications. The company recently announced its next generation SAKURA-II AI accelerator ...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/imaging.html" class="tag is-light is-small">
+                                Imaging
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/edgecortix.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00002JH6ZhQAL" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/federal-laboratory-consoritum.html" class="has-text-dark">
+                            Federal Laboratory Consoritum
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        The Federal Laboratory Consortium (FLC) is a network of 300+ federal labs dedicated to accelerating technologies into the marketplace. 
+
+Visit our shared booth space with NASA, US Army DEVCOM, VA and ...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessibility.html" class="tag is-light is-small">
+                                Accessibility
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/education-tech.html" class="tag is-light is-small">
+                                Education Tech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/federal-laboratory-consoritum.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000FsuXfIAJ" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/fivetech.html" class="has-text-dark">
+                            Fivetech
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Fivetech specializes in tool-less, user-friendly mechanical components, serving clients in 30 countries across 5 continents. By innovating diverse quick-release fasteners, we deliver reliable solution...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cloud-computing.html" class="tag is-light is-small">
+                                Cloud Computing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/quantum.html" class="tag is-light is-small">
+                                Quantum
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/fivetech.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000xlCILIA2" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/flanders-investment-trade-palo-alto.html" class="has-text-dark">
+                            Flanders Investment &amp; Trade Palo Alto
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        We support Flanders, Belgium companies like IMEC, VIB, VITO and FlandersMake in internationalization, and we attract foreign companies to Flanders. Companies can call upon our expertise free of charge...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cybersecurity.html" class="tag is-light is-small">
+                                Cybersecurity
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/next-g.html" class="tag is-light is-small">
+                                Next G
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/flanders-investment-trade-palo-alto.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000gG1zMIAS" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/globalsat-worldcom-corporation.html" class="has-text-dark">
+                            GlobalSat WorldCom Corporation
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        GlobalSat, founded in 2000, is a leading GPS receiver and module maker. With years of experience, we offer four product lines: 1. GPS Tracking for personal/fleet 2. GPS/Bluetooth Wearable Devices 3. I...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/digital-health.html" class="tag is-light is-small">
+                                Digital Health
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/pet-animal-tech.html" class="tag is-light is-small">
+                                Pet &amp; Animal Tech
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/globalsat-worldcom-corporation.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KYVIcAAP" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/green-hills-software-llc.html" class="has-text-dark">
+                            Green Hills Software LLC
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Green Hills Software is the worldwide leader in embedded safety &amp; security, offering scalable runtime environments and integrated development solutions for the automotive, defense, medical, industrial...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/green-hills-software-llc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001NvGwOAAV" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/imec.html" class="has-text-dark">
+                            IMEC
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Imec is a world-leading research and innovation center with expertise in nanoelectronics and digital technologies. Its &gt; 5,500 employees and top researchers make use of a state-of-the-art infrastructu...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/quantum.html" class="tag is-light is-small">
+                                Quantum
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/imec.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001QDhIKQA1" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/imv-america-inc.html" class="has-text-dark">
+                            IMV America, Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        IMV, the world’s largest electrodynamic shaker manufacturer, delivers advanced vibration and environmental testing systems engineered for precision, reliability, and efficiency. Serving automotive, ae...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/imv-america-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000DgPP8IAN" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/microsurgeonbot-inc-dba-msbai.html" class="has-text-dark">
+                            Microsurgeonbot Inc. (dba MSBAI)
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        MSBAI&#39;s GURU is a proprietary hierarchical neuro-symbolic multi-agent AI that automates complex engineering and operations across defense, aerospace, energy, and manufacturing. Defense-validated, it o...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/additive-manufacturing-3d-printing.html" class="tag is-light is-small">
+                                Additive Manufacturing &amp; 3D Printing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/microsurgeonbot-inc-dba-msbai.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000046BULjQAO" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/mpnics.html" class="has-text-dark">
+                            MPNICS
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        MPNICS Co., Ltd. is a leading provider of specialized glass micro optical components, catering to various industries including optical communication, lasers, and IR optics. With a strong focus on invi...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/biotech.html" class="tag is-light is-small">
+                                Biotech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/quantum.html" class="tag is-light is-small">
+                                Quantum
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/mpnics.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001AVduuIAD" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/neural-concept.html" class="has-text-dark">
+                            Neural Concept
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Neural Concept revolutionizes product development by integrating AI into the design process. Our platform accelerates engineering work by 10x, cutting development times by up to 75% and enhancing prod...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sourcing-manufacturing.html" class="tag is-light is-small">
+                                Sourcing &amp; Manufacturing
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/neural-concept.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000UkE1yIAF" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/next-core-technologies-inc.html" class="has-text-dark">
+                            Next Core Technologies, Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Tech startup established as a three-way joint venture in September 2022.
+Succeeded in press mass production of amorphous laminated cores for the first time in the world, revolutionizing power consumpt...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/drones.html" class="tag is-light is-small">
+                                Drones
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sustainability.html" class="tag is-light is-small">
+                                Sustainability
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/next-core-technologies-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000ZYRgOIAX" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/paru-electronics-coltd.html" class="has-text-dark">
+                            Paru Electronics Co.,Ltd.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        PARU Electronics is a company that specializes in the development and production of printed electronics technology. This technology involves the printing of electronic devices such as heaters, electro...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/fitness.html" class="tag is-light is-small">
+                                Fitness
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/paru-electronics-coltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001efr15QAA" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/rd-elynceus-inc.html" class="has-text-dark">
+                            R&amp;D eLynceus Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Web portal providing innovative solutions for businesses and homes:
+- Speech Recognition for automatic calls to  emergency services and registered contacts when you cannot reach your phone to call
+- E...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/accessories.html" class="tag is-light is-small">
+                                Accessories
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/rd-elynceus-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001YV8jIQAT" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/renaissance-hospitality-suites.html" class="has-text-dark">
+                            Renaissance Hospitality Suites
+                        </a>
+                    </h2>
+                    
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/audio.html" class="tag is-light is-small">
+                                Audio
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/marketing-advertising.html" class="tag is-light is-small">
+                                Marketing &amp; Advertising
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/renaissance-hospitality-suites.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=MYS_Ren" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/roush.html" class="has-text-dark">
+                            Roush
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        If you can dream it, we can build it. And design it, model it, engineer it, test it, validate it, manufacture it, and so much more. Whether on the road, the sky, the sea or exploring new frontiers, fo...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/sourcing-manufacturing.html" class="tag is-light is-small">
+                                Sourcing &amp; Manufacturing
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/roush.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaODZAA3" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/schott-north-america-inc.html" class="has-text-dark">
+                            SCHOTT North America, Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        As a global specialty glass &amp; material technology group, we are constantly exploring unique and innovative ways to make a difference for businesses and people. We are a highly skilled partner for many...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/schott-north-america-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001MfBzpAAF" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/spacemap-inc.html" class="has-text-dark">
+                            Spacemap Inc.
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        SpaceMap offers a real-time or near-real-time decision-making platform for the best-possible solutions in order to maximize safety and efficiency in space missions. This includes:
+
+1) Real-time conjun...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cloud-computing.html" class="tag is-light is-small">
+                                Cloud Computing
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/spacemap-inc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00002JHIOhQAP" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/starlink.html" class="has-text-dark">
+                            Starlink
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Starlink delivers high-speed, low-latency internet to users all over the world. As the world&#39;s first and largest satellite constellation using a low Earth orbit, Starlink delivers broadband internet c...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/home-entertainment-office-hardware.html" class="tag is-light is-small">
+                                Home Entertainment &amp; Office Hardware
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/starlink.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000042Et5nQAC" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/suzhou-aorunji-optoelectronices-coltd.html" class="has-text-dark">
+                            Suzhou Aorunji Optoelectronices Co.Ltd
+                        </a>
+                    </h2>
+                    
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/content-entertainment.html" class="tag is-light is-small">
+                                Content &amp; Entertainment
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/education-tech.html" class="tag is-light is-small">
+                                Education Tech
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/imaging.html" class="tag is-light is-small">
+                                Imaging
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-communities.html" class="tag is-light is-small">
+                                Smart Communities
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/suzhou-aorunji-optoelectronices-coltd.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000012UmK8IAK" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/symage-by-geisel-software.html" class="has-text-dark">
+                            Symage by Geisel Software
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        Meet Symage—the synthetic data platform built for real results. Leveraging Geisel Software’s expertise in AI, robotics, and machine learning, Symage redefines data generation. Skip the manual labeling...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/artificial-intelligence.html" class="tag is-light is-small">
+                                Artificial Intelligence
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/imaging.html" class="tag is-light is-small">
+                                Imaging
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/symage-by-geisel-software.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000deDl3IAE" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/synsense-inivation.html" class="has-text-dark">
+                            SynSense - iniVation
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        At iniVation we create neuromorphic vision systems. Our bio-inspired intelligent technology offers unprecedented advantages over conventional machine vision systems: ultra-low response latency, low da...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/startups.html" class="tag is-light is-small">
+                                Startups
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/synsense-inivation.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V00002JI0KWQA1" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/the-disti-corporation.html" class="has-text-dark">
+                            The DiSTI Corporation
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        The world’s leading automotive manufacturers and OEMS rely on DiSTI to future-proof their User Interfaces and improve their training through DiSTI’s virtual solutions. DiSTI products are currently pow...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/energy-transition.html" class="tag is-light is-small">
+                                Energy Transition
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/xr-spatial-computing.html" class="tag is-light is-small">
+                                XR &amp; Spatial Computing
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/the-disti-corporation.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001TrNSWQA3" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/vpi-technology.html" class="has-text-dark">
+                            VPI Technology
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        VPI Technology is a multi-discipline technology firm, specializing in electronic design services, engineering, prototyping, certification and testing services, and electronics manufacturing. We specia...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/computing.html" class="tag is-light is-small">
+                                Computing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/robotics.html" class="tag is-light is-small">
+                                Robotics
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/vpi-technology.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KYVRVAA5" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/wolfssl.html" class="has-text-dark">
+                            wolfSSL
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        wolfSSL, the leader in cybersecurity for automotive, offers wolfHSM for working with Automotive HSM’s as well as TLS/DTLS 1.3, secure boot, and cryptography for ECU’s and ADAS. wolfSSL products are us...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cloud-computing.html" class="tag is-light is-small">
+                                Cloud Computing
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/cybersecurity.html" class="tag is-light is-small">
+                                Cybersecurity
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/iotsensors.html" class="tag is-light is-small">
+                                IoT/Sensors
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/vehicle-tech-advanced-mobility.html" class="tag is-light is-small">
+                                Vehicle Tech &amp; Advanced Mobility
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/wolfssl.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000046OAeSQAW" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="box mb-4">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-5 mb-2">
+                        <a href="/ces-pages-dev/exhibitors/zwo-usa-llc.html" class="has-text-dark">
+                            ZWO USA LLC
+                        </a>
+                    </h2>
+                    
+                    
+                    <p class="mb-3 has-text-grey-dark">
+                        ZWO is a leading innovator in astrophotography gears, specializing in the development and production of high-performance astrophotography cameras, smart telescopes, optical accessories, and software s...
+                    </p>
+                    
+                    
+                    
+                    <div class="tags">
+                        <span class="tag is-light is-small has-text-grey">Also in:</span>
+                        
+                            
+                            <a href="/ces-pages-dev/categories/imaging.html" class="tag is-light is-small">
+                                Imaging
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/lifestyle.html" class="tag is-light is-small">
+                                Lifestyle
+                            </a>
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/smart-home-appliances.html" class="tag is-light is-small">
+                                Smart Home &amp; Appliances
+                            </a>
+                            
+                        
+                            
+                        
+                            
+                            <a href="/ces-pages-dev/categories/video-display.html" class="tag is-light is-small">
+                                Video &amp; Display
+                            </a>
+                            
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column is-narrow">
+                    <div class="buttons">
+                        <a href="/ces-pages-dev/exhibitors/zwo-usa-llc.html" class="button is-primary is-small">
+                            View Details
+                        </a>
+                        <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00000kSosOIAS" class="button is-light is-small" target="_blank" rel="noopener">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+
+    
+
+    <!-- Back Navigation -->
+    <nav class="mt-6">
+        <a href="/ces-pages-dev/categories.html" class="button is-light">
+            <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+            </span>
+            <span>Back to All Categories</span>
+        </a>
+    </nav>
+</div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer has-background-light">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <h3 class="title is-5">About</h3>
+                    <p class="content">CES Exhibitors Directory - A comprehensive searchable database of all exhibitors at the Consumer Electronics Show.</p>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Statistics</h3>
+                    <div class="content">
+                        <p>
+                            <strong>0</strong> exhibitors<br>
+                            <strong>0</strong> categories
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Data</h3>
+                    <div class="content">
+                        <p>
+                            Last updated: <time datetime="2025-01-01T00:00:00Z">
+                                2025-01-01
+                            </time>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="content has-text-centered">
+                <p>&copy; 2025 CES Exhibitors Directory. Data scraped from <a href="https://exhibitors.ces.tech" target="_blank" rel="noopener">exhibitors.ces.tech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/ces-pages-dev/js/search.js"></script>
+    
+</body>
+</html>

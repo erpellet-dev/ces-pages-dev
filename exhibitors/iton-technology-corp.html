@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITON is a high-tech enterprise specializing in communication technology and application solutions.ITON (stock code: 830982) was founded in 2006 and listed on th">
+    <title>ITON Technology Corp. - CES Exhibitor</title>
+    
+    <!-- Bulma CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <!-- Base path for JavaScript -->
+    <script>window.SITE_BASE_PATH = '/ces-pages-dev';</script>
+    
+    <style>
+    /* Minimal inline styles for functionality that Bulma doesn't provide */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /* Make hero header sticky */
+    .hero.is-primary {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    /* Search results dropdown positioning */
+    .search-container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 0.5rem;
+        max-height: 400px;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    
+    /* Search results list styling */
+    .menu-list a {
+        padding: 1rem;
+        border-radius: 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .menu-list li:last-child a {
+        border-bottom: none;
+    }
+    
+    /* Smooth transitions for cards */
+    .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    }
+    </style>
+    
+    
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="hero is-primary is-bold">
+        <div class="hero-head">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="/ces-pages-dev/index.html" class="navbar-item">
+                            <strong class="is-size-4">CES Exhibitors</strong>
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="/ces-pages-dev/index.html" class="navbar-item ">
+                                Home
+                            </a>
+                            <a href="/ces-pages-dev/exhibitors_table.html" class="navbar-item ">
+                                Table View
+                            </a>
+                            <a href="/ces-pages-dev/categories.html" class="navbar-item ">
+                                Categories
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="hero-body">
+            <div class="container">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="field has-addons">
+                        <div class="control is-expanded has-icons-left">
+                            <input 
+                                type="search" 
+                                id="search-input" 
+                                class="input is-large search-input" 
+                                placeholder="Search exhibitors by name, category, or description..."
+                                autocomplete="off"
+                            >
+                            <span class="icon is-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.35-4.35"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Results Dropdown -->
+                    <div id="search-results" class="box search-results" style="display: none;">
+                        <div class="mb-2">
+                            <span id="results-count" class="tag is-info">0 results</span>
+                        </div>
+                        <ul id="results-list" class="menu-list"></ul>
+                        <div class="mt-2 has-text-centered">
+                            <p class="is-size-7 has-text-grey">Press <kbd class="tag is-light is-small">↑</kbd> <kbd class="tag is-light is-small">↓</kbd> to navigate, <kbd class="tag is-light is-small">Enter</kbd> to select</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="section">
+        <div class="container">
+            
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="/ces-pages-dev/index.html">Home</a></li>
+        <li aria-current="page">ITON Technology Corp.</li>
+    </ol>
+</nav>
+
+            
+            
+<div style="max-width: 800px; margin: 0 auto;">
+    <article>
+        <!-- Header -->
+        <header class="has-text-centered pb-5 mb-5" style="border-bottom: 2px solid #dbdbdb;">
+            <h1 class="title is-2 mb-4">ITON Technology Corp.</h1>
+            
+            <div class="mb-4">
+                <span class="icon-text has-text-grey">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </span>
+                    <span>Last seen: <time datetime="2025-10-11T20:10:05.445001+00:00">2025-10-11 20:10:05.445001+00:00</time></span>
+                </span>
+            </div>
+            
+            <div class="mt-4">
+                <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001L6mSiAAJ" class="button is-primary is-medium" target="_blank" rel="noopener">
+                    <span>Visit Official Page</span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Description Section -->
+            <section class="mb-6">
+                <h2 class="title is-4">About</h2>
+                
+                <p class="is-size-5 has-text-grey-dark" style="line-height: 1.7;">ITON is a high-tech enterprise specializing in communication technology and application solutions.ITON (stock code: 830982) was founded in 2006 and listed on the NEEQ in 2014.</p>
+                
+            </section>
+
+            <!-- Categories Section -->
+            
+            <section class="mb-6">
+                <h2 class="title is-4 mb-4">
+                    Product Categories
+                    <span class="tag is-primary is-rounded ml-2">5</span>
+                </h2>
+                <div class="columns is-multiline" style="gap: 1rem;">
+                    
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <a href="/ces-pages-dev/categories/accessories.html" class="box has-text-centered" style="transition: all 0.2s;">
+                            <span class="icon has-text-primary mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                                </svg>
+                            </span>
+                            <p class="has-text-weight-medium">Accessories</p>
+                        </a>
+                    </div>
+                    
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <a href="/ces-pages-dev/categories/digital-health.html" class="box has-text-centered" style="transition: all 0.2s;">
+                            <span class="icon has-text-primary mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                                </svg>
+                            </span>
+                            <p class="has-text-weight-medium">Digital Health</p>
+                        </a>
+                    </div>
+                    
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <a href="/ces-pages-dev/categories/fitness.html" class="box has-text-centered" style="transition: all 0.2s;">
+                            <span class="icon has-text-primary mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                                </svg>
+                            </span>
+                            <p class="has-text-weight-medium">Fitness</p>
+                        </a>
+                    </div>
+                    
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <a href="/ces-pages-dev/categories/lifestyle.html" class="box has-text-centered" style="transition: all 0.2s;">
+                            <span class="icon has-text-primary mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                                </svg>
+                            </span>
+                            <p class="has-text-weight-medium">Lifestyle</p>
+                        </a>
+                    </div>
+                    
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <a href="/ces-pages-dev/categories/retaile-commerce.html" class="box has-text-centered" style="transition: all 0.2s;">
+                            <span class="icon has-text-primary mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                                </svg>
+                            </span>
+                            <p class="has-text-weight-medium">Retail/E-Commerce</p>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+
+            <!-- Information Section -->
+            <section class="mb-6">
+                <h2 class="title is-4 mb-4">Information</h2>
+                <div class="content">
+                    <table class="table is-fullwidth">
+                        <tbody>
+                            <tr>
+                                <th style="width: 200px;">Official Page:</th>
+                                <td>
+                                    <a href="https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001L6mSiAAJ" target="_blank" rel="noopener" class="has-text-link">
+                                        https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001L6mSiAAJ
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Last Updated:</th>
+                                <td>
+                                    <time datetime="2025-10-11T20:10:05.445001+00:00">
+                                        2025-10-11 20:10:05.445001+00:00
+                                    </time>
+                                </td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <th>Booth:</th>
+                                <td>Venetian Expo, Halls A-D — 54371 — Lifestyle</td>
+                            </tr>
+                            
+                            
+                            
+                            <tr>
+                                <th>Company Website:</th>
+                                <td>
+                                    <a href="https://www.sziton.com" target="_blank" rel="noopener" class="has-text-link">
+                                        https://www.sziton.com
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                            <tr>
+                                <th>Number of Categories:</th>
+                                <td>5</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <!-- Back Navigation -->
+        <nav class="mt-6 pt-5" style="border-top: 2px solid #dbdbdb;">
+            <a href="/ces-pages-dev/index.html" class="button is-light">
+                <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                </span>
+                <span>Back to All Exhibitors</span>
+            </a>
+        </nav>
+    </article>
+</div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer has-background-light">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <h3 class="title is-5">About</h3>
+                    <p class="content">CES Exhibitors Directory - A comprehensive searchable database of all exhibitors at the Consumer Electronics Show.</p>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Statistics</h3>
+                    <div class="content">
+                        <p>
+                            <strong>0</strong> exhibitors<br>
+                            <strong>0</strong> categories
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <h3 class="title is-5">Data</h3>
+                    <div class="content">
+                        <p>
+                            Last updated: <time datetime="2025-01-01T00:00:00Z">
+                                2025-01-01
+                            </time>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="content has-text-centered">
+                <p>&copy; 2025 CES Exhibitors Directory. Data scraped from <a href="https://exhibitors.ces.tech" target="_blank" rel="noopener">exhibitors.ces.tech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/ces-pages-dev/js/search.js"></script>
+    
+</body>
+</html>
