@@ -6,21 +6,23 @@
 /**
  * Escape CSV field per RFC 4180
  * @param {string} value - Value to escape
+ * @param {boolean} isDescription - Whether this is a description field (replaces newlines with spaces)
  * @returns {string} Escaped value
  */
-function escapeCSVField(value) {
+function escapeCSVField(value, isDescription = false) {
     if (value == null) {
-        return '';
+        return '""';
     }
     
-    const strValue = String(value);
+    let strValue = String(value);
     
-    // If field contains comma, quote, or newline, wrap in quotes and escape quotes
-    if (strValue.includes(',') || strValue.includes('"') || strValue.includes('\n') || strValue.includes('\r')) {
-        return '"' + strValue.replace(/"/g, '""') + '"';
+    // Replace newlines with spaces in description field
+    if (isDescription) {
+        strValue = strValue.replace(/\n/g, ' ').replace(/\r/g, '');
     }
     
-    return strValue;
+    // Always wrap in quotes and escape internal quotes
+    return '"' + strValue.replace(/"/g, '""') + '"';
 }
 
 /**
@@ -73,9 +75,11 @@ function generateCSV(exhibitors, columns) {
             if (col.type === 'array') {
                 // Convert array to pipe-separated string, then escape for CSV
                 const pipeSeparated = arrayToPipeSeparated(value);
-                return escapeCSVField(pipeSeparated);
+                return escapeCSVField(pipeSeparated, false);
             } else {
-                return escapeCSVField(value);
+                // Replace newlines with spaces for description field
+                const isDescription = col.name === 'description';
+                return escapeCSVField(value, isDescription);
             }
         });
         
