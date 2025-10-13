@@ -18,8 +18,14 @@ function escapeCSVField(value, isDescription = false) {
     
     // Replace newlines with spaces in description field
     if (isDescription) {
-        strValue = strValue.replace(/\n/g, ' ').replace(/\r/g, '');
+    // Normalize all newline sequences (\r\n, \r, \n) into a single space,
+    // then collapse multiple spaces into one and trim edges.
+    strValue = strValue
+        .replace(/(?:\r\n|\r|\n)+/g, " ")
+        .replace(/ {2,}/g, " ")
+        .trim();
     }
+
     
     // Always wrap in quotes and escape internal quotes
     return '"' + strValue.replace(/"/g, '""') + '"';
