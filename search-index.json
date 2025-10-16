@@ -3021,6 +3021,24 @@
       "search_terms": "beijing seetrum technology seetrum is committed to providing advanced spectral sensors and intelligent sensing solutions, based on our original computational spectral technology. our products will expand sensing applications in smartphone, medical device, machine vision, ar, autopilot, smart city, etc. we are making spectral sensing everywhere. imaging investment & venture capital iot/sensors smart communities startups"
     },
     {
+      "name": "Beijing Sunshine Int'l. Trade Show Promotion",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001N9ZsPAAV",
+      "categories": [],
+      "booths": [
+        "LVCC, South Hall 2 — 35925 — Design & Source",
+        "LVCC, South Hall 2 — 35929 — Design & Source",
+        "LVCC, South Hall 2 — 35935 — Design & Source",
+        "LVCC, South Hall 2 — 35939 — Design & Source",
+        "LVCC, South Hall 2 — 36028 — Design & Source",
+        "LVCC, South Hall 2 — 36032 — Design & Source",
+        "LVCC, South Hall 2 — 36034 — Design & Source"
+      ],
+      "website": "https://www.exhibitionservice.com",
+      "scraped_at": "",
+      "search_terms": "beijing sunshine int'l. trade show promotion "
+    },
+    {
       "name": "Beijing Teeni Intelligent Technology Co., Ltd.",
       "description": "",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001P3QFBIA3",
@@ -9631,6 +9649,18 @@
       "search_terms": "fullink technology co., ltd. fullink technology co., ltd is a national high-tech enterprise and global leading av/it provider specialized in connectivity solutions such as av converters, laptop hubs and docking stations, cable converters, power adapters, etc. accessories sourcing & manufacturing"
     },
     {
+      "name": "Fun Technology Innovation Inc.",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001SKHx2IAH",
+      "categories": [],
+      "booths": [
+        "LVCC, Central Hall — 21833"
+      ],
+      "website": "https://funtechinnovation.com/",
+      "scraped_at": "",
+      "search_terms": "fun technology innovation inc. "
+    },
+    {
       "name": "FunIT Inc.",
       "description": "",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001R7IbFIAV",
@@ -15872,6 +15902,18 @@
       "search_terms": "kyocera corporation kyocera corporation was founded in 1959 as a producer of fine ceramics. by integrating these materials with other technologies, kyocera has become a leading supplier of industrial and automotive components, semiconductor packages, electronic devices, smart energy systems, printers, copiers, mobile phones, and more. artificial intelligence imaging iot/sensors robotics vehicle tech & advanced mobility"
     },
     {
+      "name": "Kyoden",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001NavrgIAB",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 8477"
+      ],
+      "website": "https://www.kyoden.co.jp/en/",
+      "scraped_at": "",
+      "search_terms": "kyoden "
+    },
+    {
       "name": "Kyungpook National University",
       "description": "-",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000046QVlkQAG",
@@ -16622,6 +16664,18 @@
       "website": "https://lintekgroup.com/",
       "scraped_at": "",
       "search_terms": "lintek group llc lintek is a trusted manufacturer and supplier of innovative electronics, offering cellular chargers, cables, power banks, fans, computer adapters, and more. we provide reliable, high-quality products to retailers and businesses worldwide, backed by competitive pricing and strong customer support. accessories computing home entertainment & office hardware retail/e-commerce sourcing & manufacturing"
+    },
+    {
+      "name": "LIPS Corporation",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001UbJJ0QAN",
+      "categories": [],
+      "booths": [
+        "Venetian Tower — Suite 29-217"
+      ],
+      "website": "http://www.lips-hci.com",
+      "scraped_at": "",
+      "search_terms": "lips corporation "
     },
     {
       "name": "LITBIG INC.",
@@ -18930,6 +18984,18 @@
       "search_terms": "mymemo ai llc "
     },
     {
+      "name": "myolab.ai",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001S8g36IAB",
+      "categories": [],
+      "booths": [
+        "Venetian Expo, Hall G — 61232 — Eureka Park"
+      ],
+      "website": "http://myolab.ai/",
+      "scraped_at": "",
+      "search_terms": "myolab.ai "
+    },
+    {
       "name": "NAGRA - Kudelski Group",
       "description": "The Kudelski Group is a world leader in digital business enablement technologies built to deliver trust and innovation. Its three business divisions include NAGRAVISION (media & entertainment), Kudelski IoT (IoT solutions and services), and Kudelski Security (cybersecurity services for enterprise and government).",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaMRxAAN",
@@ -20583,6 +20649,24 @@
       "website": "https://www.patternox.com/short-video",
       "scraped_at": "",
       "search_terms": "patternox "
+    },
+    {
+      "name": "Pawkeyland LLC",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001MlrbjIAB",
+      "categories": [
+        "Artificial Intelligence",
+        "Digital Health",
+        "Fashion Tech",
+        "Pet & Animal Tech",
+        "Smart Home & Appliances"
+      ],
+      "booths": [
+        "Venetian Expo, Hall G — 60465 — Eureka Park"
+      ],
+      "website": "https://pawkeylandpet.com/",
+      "scraped_at": "",
+      "search_terms": "pawkeyland llc  artificial intelligence digital health fashion tech pet & animal tech smart home & appliances"
     },
     {
       "name": "Pawport",
@@ -29148,6 +29232,23 @@
       "search_terms": "swann communications, inc. swann is a leader in home, business and personal security with a mix of products from wireless devices through to complete wired cctv surveillance systems. swann is expanding the boundaries of security with new ai voice, alarm, wireless and wi-fi solutions. it's security you can trust. (to set up a meeting email swannpr@presspassla.com) artificial intelligence cloud computing home entertainment & office hardware smart home & appliances video & display"
     },
     {
+      "name": "Swave Photonics",
+      "description": "Swave's Holographic eXtended Reality (HXR) is the first Spatial Compute display technology, delivering lifelike, high-resolution 3D images indistinguishable from reality. Most importantly, the HXR chips are manufactured using standard CMOS technology, which enables cost-effective scaling.",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000046QtdFQAS",
+      "categories": [
+        "Imaging",
+        "Startups",
+        "Video & Display",
+        "XR & Spatial Computing"
+      ],
+      "booths": [
+        "Venetian Tower, Hospitality — Venetian Palazzo Hospitality Suites"
+      ],
+      "website": "https://swave.io/",
+      "scraped_at": "",
+      "search_terms": "swave photonics swave's holographic extended reality (hxr) is the first spatial compute display technology, delivering lifelike, high-resolution 3d images indistinguishable from reality. most importantly, the hxr chips are manufactured using standard cmos technology, which enables cost-effective scaling. imaging startups video & display xr & spatial computing"
+    },
+    {
       "name": "Sweet Robo LLC",
       "description": "Welcome to Sweet Robo, a global leader in robotics and entertainment. We harness the power of futuristic technology to deliver treats that dazzle and inspire.\nWe manufacture innovative robotic vending machines, Our state-of-the-art robot vending machines have been designed to simplify the journey into entrepreneurship.",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000046R1h5QAC",
@@ -34492,7 +34593,7 @@
     }
   ],
   "metadata": {
-    "built_at": "2025-10-15T08:00:37Z",
-    "exhibitor_count": 2193
+    "built_at": "2025-10-16T03:05:22Z",
+    "exhibitor_count": 2200
   }
 }
