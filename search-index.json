@@ -374,6 +374,48 @@
       "search_terms": "ace forum inc. "
     },
     {
+      "name": "ACE Marketing Inc.",
+      "description": "ACE Markeing INC. Since 1999, ACE has gradually become the industrial exhibition agent in Taiwan for global computer information, video and audio broadcasting, consumer electronics, various computer technology application exhibitions, telecommunication networking, optical fiber and photo-electricity.",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KYVIDAA5",
+      "categories": [],
+      "booths": [
+        "LVCC, South Hall 2 — 35701 — Design & Source",
+        "LVCC, South Hall 2 — 35711 — Design & Source",
+        "LVCC, South Hall 2 — 35713 — Design & Source",
+        "LVCC, South Hall 2 — 35715 — Design & Source",
+        "LVCC, South Hall 2 — 35717 — Design & Source",
+        "LVCC, South Hall 2 — 35719 — Design & Source",
+        "LVCC, South Hall 2 — 35800 — Design & Source",
+        "LVCC, South Hall 2 — 35801 — Design & Source",
+        "LVCC, South Hall 2 — 35803 — Design & Source",
+        "LVCC, South Hall 2 — 35805 — Design & Source",
+        "LVCC, South Hall 2 — 35810 — Design & Source",
+        "LVCC, South Hall 2 — 35811 — Design & Source",
+        "LVCC, South Hall 2 — 35812 — Design & Source",
+        "LVCC, South Hall 2 — 35813 — Design & Source",
+        "LVCC, South Hall 2 — 35814 — Design & Source",
+        "LVCC, South Hall 2 — 35815 — Design & Source",
+        "LVCC, South Hall 2 — 35816 — Design & Source",
+        "LVCC, South Hall 2 — 35817 — Design & Source",
+        "LVCC, South Hall 2 — 35818 — Design & Source",
+        "LVCC, South Hall 2 — 35819 — Design & Source",
+        "LVCC, South Hall 2 — 35900 — Design & Source",
+        "LVCC, South Hall 2 — 35902 — Design & Source",
+        "LVCC, South Hall 2 — 35904 — Design & Source",
+        "LVCC, South Hall 2 — 35910 — Design & Source",
+        "LVCC, South Hall 2 — 35912 — Design & Source",
+        "LVCC, South Hall 2 — 35914 — Design & Source",
+        "LVCC, South Hall 2 — 35916 — Design & Source",
+        "LVCC, South Hall 2 — 35918 — Design & Source",
+        "LVCC, South Hall 2 — 36301 — Design & Source",
+        "LVCC, South Hall 2 — 36400 — Design & Source",
+        "LVCC, South Hall 2 — 36402 — Design & Source"
+      ],
+      "website": "https://www.acemarketing.com.cn/",
+      "scraped_at": "",
+      "search_terms": "ace marketing inc. ace markeing inc. since 1999, ace has gradually become the industrial exhibition agent in taiwan for global computer information, video and audio broadcasting, consumer electronics, various computer technology application exhibitions, telecommunication networking, optical fiber and photo-electricity."
+    },
+    {
       "name": "ACE Ontario Tech University",
       "description": "ACE is North America’s premier Climatic Testing Facility. Creating controlled and repeatable weather in a full-scale lab environment is what we do. We can create -40C to +60C as well as wind, rain, snow and fog in our Climatic Wind Tunnel. ACE has the facility and the expertise that companies need to develop & validate their products.",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000003MuMoIAK",
@@ -2011,6 +2053,18 @@
       "website": "https://architeck.co.kr",
       "scraped_at": "",
       "search_terms": "architech co.,ltd. architech co., ltd provides innovative solutions utilizing big data, ai, and iot to enhance construction safety and productivity. the integrated management system collects and analyzes real-time data to prevent accidents, optimize resources, and improve work efficiency. additive manufacturing & 3d printing cloud computing construction & industrial tech iot/sensors smart communities"
+    },
+    {
+      "name": "Arduino LLC",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000003dnf3IAA",
+      "categories": [],
+      "booths": [
+        "Venetian Tower, Hospitality — Venetian Palazzo Hospitality Suites"
+      ],
+      "website": "http://www.ARDUINO.CC",
+      "scraped_at": "",
+      "search_terms": "arduino llc "
     },
     {
       "name": "ARIA Hospitality Suites",
@@ -6711,6 +6765,24 @@
       "search_terms": "dexrobot co., ltd. "
     },
     {
+      "name": "DHL Supply Chain",
+      "description": "DHL Supply Chain brings together exceptional strategic and operational capabilities through a disciplined approach to operations and deep industry expertise. The world's largest 3PL delivers predictability and flexibility to drive business results for its customers through unparalleled scale and dedicated focus on continuous innovation.",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0014V000028lRFdQAM",
+      "categories": [
+        "Cloud Computing",
+        "Home Entertainment & Office Hardware",
+        "Imaging",
+        "Next G",
+        "Supply & Logistics"
+      ],
+      "booths": [
+        "Venetian, Lvl 1 — Tao"
+      ],
+      "website": "https://tinyurl.com/DHL-Supply-Chain",
+      "scraped_at": "",
+      "search_terms": "dhl supply chain dhl supply chain brings together exceptional strategic and operational capabilities through a disciplined approach to operations and deep industry expertise. the world's largest 3pl delivers predictability and flexibility to drive business results for its customers through unparalleled scale and dedicated focus on continuous innovation. cloud computing home entertainment & office hardware imaging next g supply & logistics"
+    },
+    {
       "name": "Di-Jun Technology Co., Ltd.",
       "description": "“hoda” is founded as one of the brands for cellphone & tablet accessories under DI-JUN Technology Co., Ltd. It specializes in manufacturing Screen Protectors and focuses on self-developing and owns its factory located in Taiwan and China. Welcome to be hoda agent.",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaMEqAAN",
@@ -6944,6 +7016,18 @@
       "website": "https://media.dish.com",
       "scraped_at": "",
       "search_terms": "dish media through innovative platforms like addressable targeting and programmatic buying, viewer measurement tools and access to custom audiences on dish tv and sling tv, dish media lets advertisers employ data-driven, demographically targeted buys that enhance their national media campaigns. dish media is an indirect subsidiary of echostar corp. marketing & advertising streaming video & display"
+    },
+    {
+      "name": "Dismo Industries",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001TYUieIAH",
+      "categories": [],
+      "booths": [
+        "Venetian Expo, Hall G — 60235 — Eureka Park"
+      ],
+      "website": "https://cyberfidget.com/",
+      "scraped_at": "",
+      "search_terms": "dismo industries "
     },
     {
       "name": "Disney Advertising Sales, LLC",
@@ -8172,6 +8256,18 @@
       "search_terms": "efficient computer efficient computer produces the world’s most energy-efficient general-purpose processor. along with this, we offer the effcc compiler that seamlessly translates your existing code to our fabric architecture, making our technology an easy, drop-in solution for your current toolset. we are genuinely solving computing's energy problem. energy transition iot/sensors smart communities startups"
     },
     {
+      "name": "EforThink Technology Co.,Ltd",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001QzPEwIAN",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 11071"
+      ],
+      "website": "http://www.eforthink.com",
+      "scraped_at": "",
+      "search_terms": "eforthink technology co.,ltd "
+    },
+    {
       "name": "Eieling Technology Limited",
       "description": "",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001NcEx3IAF",
@@ -8702,6 +8798,18 @@
       "website": "https://www.etas.com/en/",
       "scraped_at": "",
       "search_terms": "etas etas provides vehicle basic software, middleware, development tools, cloud-based operations services, cybersecurity solutions, and end-to-end engineering and consulting services for the realization of software-defined vehicles. etas is represented in twelve countries in europe, north and south america, and asia. artificial intelligence cloud computing cybersecurity vehicle tech & advanced mobility"
+    },
+    {
+      "name": "ETRI",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013000001KaNDKAA3",
+      "categories": [],
+      "booths": [
+        "Venetian Expo, Hall G — 62859 — Eureka Park"
+      ],
+      "website": "http://www.etri.re.kr",
+      "scraped_at": "",
+      "search_terms": "etri "
     },
     {
       "name": "Etron Technology, Inc.",
@@ -10949,6 +11057,18 @@
       "website": "https://www.ghs.com",
       "scraped_at": "",
       "search_terms": "green hills software llc green hills software is the worldwide leader in embedded safety & security, offering scalable runtime environments and integrated development solutions for the automotive, defense, medical, industrial, networking, and consumer markets. with its solutions, green hills software helps to lower development costs and reduce time-to-market. energy transition iot/sensors robotics space tech vehicle tech & advanced mobility"
+    },
+    {
+      "name": "Green Wave Electronics",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001ALl2TIAT",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 8700A"
+      ],
+      "website": "http://GreenWaveElectronics.com",
+      "scraped_at": "",
+      "search_terms": "green wave electronics "
     },
     {
       "name": "Greenbulb Trading Limited",
@@ -17553,6 +17673,18 @@
       "search_terms": "luya tech inc. luya is the world’s first ai microgreen grower(hardware+pre-seeded tray )that learns your taste and grows personalized nutrition for every family.our three patent-pending ais — sensetaste™ for flavor, nutriboost™ for nutrients, and recipenet™ for shared learning — create a self-learning biological system that makes food smarter every day. agtech artificial intelligence digital health home entertainment & office hardware iot/sensors"
     },
     {
+      "name": "LY iTech",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001OajpyIAB",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 11014"
+      ],
+      "website": "https://en.lingyiitech.com",
+      "scraped_at": "",
+      "search_terms": "ly itech "
+    },
+    {
       "name": "Lymow Trade Co., Limited",
       "description": "",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001HxerxIAB",
@@ -19664,6 +19796,18 @@
       "search_terms": "narwal founded in 2016, narwal robotics has rapidly become a leading company in the robotic vacuum cleaner market and a top 3 brand in china.\n\ndriven by our unrelenting passion for innovation, we are committed to designing products that break new grounds and transform lives for the better. our first product, the world's first self-cleaning robot robotics smart home & appliances"
     },
     {
+      "name": "National Sleep Foundation",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001QP1UTIA1",
+      "categories": [],
+      "booths": [
+        "Venetian Expo, Halls A-D — 53432c"
+      ],
+      "website": "http://www.thensf.org",
+      "scraped_at": "",
+      "search_terms": "national sleep foundation "
+    },
+    {
       "name": "National Waste and Recycling Association",
       "description": "",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001PShpVIAT",
@@ -19674,6 +19818,18 @@
       "website": "https://wasterecycling.org/",
       "scraped_at": "",
       "search_terms": "national waste and recycling association "
+    },
+    {
+      "name": "Navimow",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001TKKZGIA5",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 9615"
+      ],
+      "website": "https://navimow.com/",
+      "scraped_at": "",
+      "search_terms": "navimow "
     },
     {
       "name": "Naxa Electronics Inc.",
@@ -23125,6 +23281,22 @@
       "search_terms": "riselink riselink is a top global producer of aiot chipsets, shipping 300m+ units each year. our ultra-low-power wi-fi and bluetooth le solutions bring intelligence to everyday products—from toys and robots to locks and appliances. artificial intelligence iot/sensors smart communities smart home & appliances"
     },
     {
+      "name": "Rite-Tech Industrial Co., Ltd.",
+      "description": "Rite-Tech offers various kinds of power products - from compact and slim power strips to power distribution units, with optional surge protective devices and EMI filters. Our strengths: Unique, Innovative, and many US patented products for the ease of use and comfort. Best service and support with high level quality standard.",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=00130000008RsLDAA0",
+      "categories": [
+        "Accessories",
+        "Energy Transition",
+        "Smart Home & Appliances"
+      ],
+      "booths": [
+        "LVCC, South Hall 2 — 35549"
+      ],
+      "website": "https://www.ritetech.com.tw/",
+      "scraped_at": "",
+      "search_terms": "rite-tech industrial co., ltd. rite-tech offers various kinds of power products - from compact and slim power strips to power distribution units, with optional surge protective devices and emi filters. our strengths: unique, innovative, and many us patented products for the ease of use and comfort. best service and support with high level quality standard. accessories energy transition smart home & appliances"
+    },
+    {
       "name": "Roam smart tracker",
       "description": "Roam is a tiny smart tracker with Apple and Android “Find My” integration. £500K+ in sales across 81 countries at launch in Feb 2025. Our “One Tree for One Roam” pledge plants a tree for every unit sold. Pair it. Attach it. Find it",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001RMBUbIAP",
@@ -23482,6 +23654,18 @@
       "website": "https://rockwestmedical.com",
       "scraped_at": "",
       "search_terms": "rwm laser and red light therapy devices accessories"
+    },
+    {
+      "name": "Sabre",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001egA58QAE",
+      "categories": [],
+      "booths": [
+        "LVCC, North Hall — 9569"
+      ],
+      "website": "http://www.sabre.com",
+      "scraped_at": "",
+      "search_terms": "sabre "
     },
     {
       "name": "Safect Co., Ltd.",
@@ -24237,6 +24421,18 @@
       "website": "https://sensereo.com/",
       "scraped_at": "",
       "search_terms": "sensereo limited sensereo is a startup advancing spatial and artificial intelligence by merging air sensing with ai-driven iot technology. our portfolio spans matter-thread sensing devices, certified fire safety alarms, and modular ai air-quality monitors. we strive to bring safer and smarter air sensing solutions to everyday life. artificial intelligence iot/sensors smart home & appliances startups sustainability"
+    },
+    {
+      "name": "SenseRobot (HongKong) Technology Limited",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001G5xFRIAZ",
+      "categories": [],
+      "booths": [
+        "LVCC, Central Hall — 14644"
+      ],
+      "website": "http://www.senserobotchess.com",
+      "scraped_at": "",
+      "search_terms": "senserobot (hongkong) technology limited "
     },
     {
       "name": "Sensforge Inc",
@@ -28222,6 +28418,25 @@
       "search_terms": "sierra technologies, inc. "
     },
     {
+      "name": "SiFive",
+      "description": "SiFive is the founder and leader of RISC-V computing. SiFive’s high performance compute platforms have enabled leading technology companies to deliver the most advanced solutions across every market segment of chip design, including AI, ML, automotive, data center, mobile, and consumer. With SiFive, the future of RISC-V has no limits.",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001eg19sQAA",
+      "categories": [
+        "Artificial Intelligence",
+        "Fitness",
+        "IoT/Sensors",
+        "Next G",
+        "XR & Spatial Computing"
+      ],
+      "booths": [
+        "Venetian Tower, Hospitality — Venetian Palazzo Hospitality Suites",
+        "Venetian Tower, Hospitality — Venetian Palazzo Hospitality Suites 2"
+      ],
+      "website": "https://www.sifive.com/",
+      "scraped_at": "",
+      "search_terms": "sifive sifive is the founder and leader of risc-v computing. sifive’s high performance compute platforms have enabled leading technology companies to deliver the most advanced solutions across every market segment of chip design, including ai, ml, automotive, data center, mobile, and consumer. with sifive, the future of risc-v has no limits. artificial intelligence fitness iot/sensors next g xr & spatial computing"
+    },
+    {
       "name": "Signlab Co., Ltd",
       "description": "SIGNLAB is a startup company established in 2015 with creativity and passion, aiming to lead the next generation of smart technologies and culture in Korea.",
       "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp000004QvtEIAS",
@@ -29291,6 +29506,18 @@
       "website": "https://spotonfence.com/",
       "scraped_at": "",
       "search_terms": "spoton gps fence spoton gps fence is the original and most accurate gps dog fence, combining cutting-edge true location™ technology with award-winning design for precise, wire-free virtual containment. portable and reliable, it delivers smart, flexible pet protection anywhere dogs roam. pet & animal tech smart home & appliances"
+    },
+    {
+      "name": "SRK Techtronics",
+      "description": "",
+      "url": "https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=001Pp00001TQpygIAD",
+      "categories": [],
+      "booths": [
+        "LVCC, West Hall — 6410"
+      ],
+      "website": "http://srktechtronics.com",
+      "scraped_at": "",
+      "search_terms": "srk techtronics "
     },
     {
       "name": "SSK Corporation",
@@ -35493,7 +35720,7 @@
     }
   ],
   "metadata": {
-    "built_at": "2025-10-18T03:00:04Z",
-    "exhibitor_count": 2264
+    "built_at": "2025-10-19T03:19:09Z",
+    "exhibitor_count": 2279
   }
 }
